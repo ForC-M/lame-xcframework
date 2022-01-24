@@ -11,7 +11,7 @@ cp build.sh ./lame-source
 echo "compile start"
 # to chdir
 cd lame-source && sh build.sh && cd ..
-cp -r ./lame-source/xcframework ./
+cp -r lame-source/xcframework ./
 
 echo "compile finish"
 open xcframework
