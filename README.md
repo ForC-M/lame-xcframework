@@ -1,21 +1,25 @@
-# lame-xcframework
-lame compile to xcframework 【将lame库编译xcframework】
+# lame compile to xcframework
 
-资源在lame-source（3.100版本）中，如需后续有相关版本则替换lame-source即可，
+## Usage
 
-## 执行[execute]
+- git clone `git@github.com:ForC-M/lame-xcframework.git`
 
-`sh start.sh` or `./start.sh`
+- download lame code from http://lame.sourceforge.net/
 
+- copy lame code to this project path ‘lame-source’
 
-## 结果[result]
+- `sh start.sh` or `./start.sh`
 
+## Requirements
 
-xcframework则会自动合成到当前目录下
+* Xcode 7 or after version
 
-可以自行魔改删除部分指令集
+    Note, use Xcode 4 SDK won't support some command
 
+* Lame any version
 
-## 联系我[contact]
+    Tested on this version
 
-heqiao.china@gmail.com
+## contact
+
+- heqiao.china@gmail.com
